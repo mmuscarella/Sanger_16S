@@ -2,10 +2,10 @@
 # Python Script to Convert .ab1 to .fasta and .qual Using BioPython
 ###############################################################################
 # Written by Mario Muscarella
-# Last Update 25 Apr 2013
+# Last Update 22 Mar 2019
 
 import glob
-files = glob.glob("*.ab1")
+files = sorted(glob.glob("*.ab1"))
 #names= []
 #for x in files:
 #	tempname = (x).split(".")[0]

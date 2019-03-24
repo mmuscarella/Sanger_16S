@@ -2,7 +2,7 @@
 # Python Script to Calcualte Moving Average
 ###############################################################################
 # Written by Mario Muscarella
-# Last Update 29 Apr 2013
+# Last Update 22 Mar 2019
 
 # Directions:
 
