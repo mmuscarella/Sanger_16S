@@ -10,6 +10,7 @@ from Bio import SeqIO
 import sys
 import glob
 import numpy as numpy
+from builtins import str
 #import MovingAverage as MovingAverage
 
 window_size = 10
@@ -34,6 +35,6 @@ for x in files:
 		sample_seq_trim = sample_seq[sample_qual_min:sample_qual_max]
 		SeqIO.write(sample_qual_trim, sample_qual.id+".trim.qual", "qual")
 		SeqIO.write(sample_seq_trim, sample_seq.id+".trim.fasta", "fasta")
-		print "trimmed fasta and qual file created for %s" % sample_qual.id
+		print("trimmed fasta and qual file created for", str(sample_qual.id))
 	else:
-		print "the maximum quality score for %s is below the cutoff" % sample_qual.id
+		print("the maximum quality score for", str(sample_qual.id), "is below the cutoff")
