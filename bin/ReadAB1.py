@@ -17,4 +17,4 @@ for x in files:
 	sample_seq.id = sample_seq.name
 	SeqIO.write(sample_seq, sample_seq.id+".fasta", "fasta")
 	SeqIO.write(sample_seq, sample_seq.id+".qual", "qual")
-	print "fasta and qual file created for %s" % sample_seq.id
+	print("fasta and qual file created for %s" % sample_seq.id)

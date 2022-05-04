@@ -21,5 +21,5 @@ for file in files:
 	temp = SeqIO.read(file, input)
 	entries.append(temp)
 	SeqIO.write(entries, output, input)
-print "%i files combined" % len(entries)
-print "Output written to %s" % output
+print("%i files combined" % len(entries))
+print("Output written to %s" % output)
