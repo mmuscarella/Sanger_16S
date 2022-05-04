@@ -16,4 +16,4 @@ for seq_record in SeqIO.parse(input, "fasta"):
     sample = seq_record.id
     length =  len(seq_record)
 
-    print "Sequence %s is %s bp long" % (sample, length)
+    print("Sequence %s is %s bp long" % (sample, length))
