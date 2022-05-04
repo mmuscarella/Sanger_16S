@@ -49,4 +49,5 @@ Last Update 2/May/2022
 
 ## Contributors:
 [Mario Muscarella](http://muscarellalab.github.io/): Principle Investigator. Assistant Professor of Microbiology at the University of Alaska Fairbanks.
+
 [Amanda Stromecki](https://github.com/astromecki): Research Professional at University of Alaska Fairbanks.
